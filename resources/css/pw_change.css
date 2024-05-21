@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('/resources/fonts/GmarketSansLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('/resources/fonts/GmarketSansMedium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    font-family: 'GmarketSansLight', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    background-color: #f8f8f8;
+}
+.container {
+    text-align: center;
+}
+.header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+.header img {
+    height: 50px;
+    margin-left: 150px;
+    margin-right: 10px;
+}
+.header .title {
+    font-family: 'GmarketSansMedium', Arial, sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+.nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+.container .form-group {
+    margin: 10px 0;
+}
+.container .form-group input {
+    font-family: 'GmarketSansMedium', Arial, sans-serif;
+    width: 400px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.btn {
+    font-family: 'GmarketSansMedium', Arial, sans-serif;
+    width: 445px;
+    padding: 15px;
+    background-color: #0077B6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #555;
+}
